@@ -10,16 +10,17 @@ body{
 }
 header{
     background-color: #fff;
-    border-bottom: #eee 1px  ;
+    height: 100vh;
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto ;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-transform: uppercase;
 }
 #logo{
     width: 20%;
@@ -52,8 +53,9 @@ li>a{
     font-size: 16px;
 }
 .hero{
+    height: 85vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .hero-text{
@@ -96,4 +98,84 @@ li>a{
 
 .hero>img{
     max-width: 400px;
+}
+section{
+    padding: 70px 0;
+}
+.strategy{
+    background-color: #1d1d1d;
+}
+.sectionTitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FF6A00;
+}
+.strategies{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.strategyBox{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-height: 100px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.strategyBox>img{
+    width: 50px;
+    height: 50px;
+}
+.boxInfo>h4{
+    font-weight: 500;
+}
+.boxInfo>p{
+    font-size: 12px;
+}
+.text>p{
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 60%;
+    margin: 20px auto;
+}
+.text>h4{
+    text-align: center;
+    margin-left: 300px;
+}
+.last{
+    padding: 20px 0;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+.callToAction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: #FF6A00 3px solid;
+}
+.callToAction>p:last-child{
+    background-color: #6190e8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #1d1d1d;
+    font-weight: 500;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+footer>img{
+    width: 150px;
 }
