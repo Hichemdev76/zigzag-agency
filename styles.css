@@ -26,12 +26,28 @@ header {
   width: 80%;
   margin: 0 auto;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
+}
+ul,
+.left-section,
+.strategies,
+.strategyBox {
+  gap: 1rem;
+}
+nav,
+.strategies,
+.callToAction,
+footer {
+  justify-content: space-between;
+}
+nav,
+.hero,
+.strategyBox,
+footer {
+  align-items: center;
 }
 nav {
-  justify-content: space-between;
-  align-items: center;
   text-transform: uppercase;
 }
 #logo {
@@ -39,9 +55,9 @@ nav {
   max-width: 120px;
   padding: 20px 0;
 }
+
 ul {
   max-width: 400px;
-  gap: 16px;
   justify-content: space-around;
 }
 li {
@@ -53,19 +69,17 @@ li > a {
 }
 .left-section {
   justify-content: flex-end;
-  gap: 1rem;
   align-items: center;
 }
 .left-section > p {
   padding: 5px 15px;
   border: var(--accent-color) 2px solid;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .hero {
   height: 85vh;
   justify-content: space-around;
-  align-items: center;
 }
 .hero-text {
   position: relative;
@@ -120,15 +134,10 @@ section {
   font-weight: 500;
   color: var(--secondary-color);
 }
-.strategies {
-  justify-content: space-between;
-  gap: 1rem;
-}
+
 .strategyBox {
   margin: 30px 0;
   justify-content: center;
-  align-items: center;
-  gap: 1rem;
   max-height: 100px;
   overflow: hidden;
   padding: 10px;
@@ -162,8 +171,6 @@ section {
   color: var(--primary-color);
 }
 .callToAction {
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 0;
   border-bottom: var(--secondary-color) 3px solid;
 }
@@ -175,8 +182,6 @@ section {
   font-weight: 500;
 }
 footer {
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 0;
   font-size: 14px;
   font-weight: 300;
