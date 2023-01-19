@@ -26,8 +26,10 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
 nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
@@ -40,7 +42,6 @@ nav {
 ul {
   max-width: 400px;
   gap: 16px;
-  display: flex;
   justify-content: space-around;
 }
 li {
@@ -51,7 +52,6 @@ li > a {
   color: var(--accent-bg-color);
 }
 .left-section {
-  display: flex;
   justify-content: flex-end;
   gap: 1rem;
   align-items: center;
@@ -64,7 +64,6 @@ li > a {
 }
 .hero {
   height: 85vh;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -122,13 +121,11 @@ section {
   color: var(--secondary-color);
 }
 .strategies {
-  display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
 .strategyBox {
   margin: 30px 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -165,7 +162,6 @@ section {
   color: var(--primary-color);
 }
 .callToAction {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
@@ -179,7 +175,6 @@ section {
   font-weight: 500;
 }
 footer {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
